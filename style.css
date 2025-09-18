@@ -60,3 +60,24 @@ button:hover {
 .equal:hover {
   background-color: #e67e22;
 }
+.footer {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer pre,
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  padding-bottom: 4px;
+  border-bottom: 1px solid transparent;
+}
+
+.footer a:hover {
+  transform: translateY(-3px);
+  border-bottom: 3px solid white;
+}
